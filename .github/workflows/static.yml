@@ -1,0 +1,161 @@
+/* ================================
+   1980s Cabbage Patch Kids Styling
+   Pastels • Playful • Nostalgic
+   ================================ */
+
+/* Google Fonts fallback-safe */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Trebuchet MS", Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(
+    180deg,
+    #ffe6f0 0%,
+    #f7f4f8 40%,
+    #e8f8ff 100%
+  );
+  color: #333;
+}
+
+/* ================= HEADER ================= */
+header {
+  background: linear-gradient(
+    135deg,
+    #ff9fc3,
+    #ffd966,
+    #9fe0ff
+  );
+  text-align: center;
+  padding: 3.5rem 1rem;
+  border-bottom: 8px dashed #ffffff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow:
+    3px 3px 0 #ff69b4,
+    6px 6px 0 #5ac8fa;
+}
+
+header p {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-top: 0.8rem;
+}
+
+/* ================= MAIN ================= */
+main {
+  max-width: 950px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+section {
+  margin-bottom: 3.5rem;
+}
+
+/* ================= HEADINGS ================= */
+h2 {
+  font-size: 2rem;
+  color: #c72e6c;
+  border-bottom: 4px dotted #ff9fc3;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ================= CONTENT BOXES ================= */
+.timeline {
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow:
+    0 4px 0 #ff9fc3,
+    0 8px 0 #9fe0ff;
+}
+
+/* ================= HOSPITAL SECTION ================= */
+.hospital {
+  background: linear-gradient(
+    135deg,
+    #c1f0dc,
+    #9fe0ff
+  );
+  color: #003344;
+  padding: 3rem 1.5rem;
+  border-radius: 16px;
+  border: 6px solid #ffffff;
+  box-shadow: 0 6px 0 #ff9fc3;
+}
+
+.hospital h2 {
+  color: #c72e6c;
+}
+
+/* ================= ADOPTION CERTIFICATE ================= */
+.certificate {
+  background: #fffef5;
+  border: 8px double #ff9fc3;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 0 #ffd966;
+}
+
+.certificate h2 {
+  border: none;
+  font-size: 2.4rem;
+  color: #5ac8fa;
+  text-shadow: 2px 2px 0 #ff9fc3;
+}
+
+.certificate .seal {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.certificate p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.certificate .signature {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+/* ================= LISTS ================= */
+ul {
+  padding-left: 1.8rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background: linear-gradient(
+    135deg,
+    #ff9fc3,
+    #9fe0ff
+  );
+  color: #ffffff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  font-size: 0.95rem;
+  border-top: 6px dashed #ffffff;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}
