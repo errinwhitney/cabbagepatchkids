@@ -2,6 +2,30 @@
    1980s Cabbage Patch Kids Styling
    Pastels • Playful • Nostalgic
    ================================ */
+/* ================= THEME SONG ================= */
+.theme-song {
+  background: #fff;
+  border: 6px dotted #ffd966;
+  padding: 2rem 1.5rem;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 0 #ff9fc3;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 1.5rem;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 
 /* Google Fonts fallback-safe */
 body {
@@ -158,4 +182,5 @@ footer {
   h2 {
     font-size: 2.2rem;
   }
+
 }
